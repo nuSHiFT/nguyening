@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple Learning Fun">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <title>Learning Thien Viet</title>
+
+    <link href="assets/css/uikit.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/uikit-width-ex.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/animations.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700%7CLora:400,400i%7CShadows+Into+Light:400" rel="stylesheet" />
+
+</head>
+
+<body class="loading">
+    <div class="tw-preloader">
+        <div data-uk-spinner></div>
+    </div>
+    <div class="header-container tw-header tw-header-transparent uk-light">
+        <nav class="uk-navbar-container uk-flex-center" data-uk-navbar>
+
+            <div class="uk-navbar-left">
+                <div class="tw-logo">
+                    <!--
+                    <h3 class="site-name" style="color:black">
+                        <a href="">Nguyening</a>
+                    </h3>
+                    -->
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="main-container">
+        <section class="uk-section uk-padding-remove-bottom">
+            <div class="tw-element uk-text-center tw-heading">
+                <h3>Listen &amp; Learn</h3>
+                <p>Hear the names of animals, colors, vehicles, and everyday objects.<br>Click on an image &mdash; listen, repeat, and learn Vietnamese.</p>
+            </div>
+            <div class="tw-element tw-portfolio tw-isotope-container" data-isotope-item=".portfolio-item">
+
+                <div class="tw-portfolio-filter uk-text-center uk-text-uppercase">
+                    <ul class="uk-list">
+                        <li><span data-filter="*">Show All</span></li>
+                        <li><span data-filter=".category-animal">Animals</span></li>
+                        <li><span data-filter=".category-food">Foods</span></li>
+                        <li><span data-filter=".category-object">Objects</span></li>
+                        <li><span data-filter=".category-vehicle">Vehicles</span></li>
+                        <li><span data-filter=".category-color">Colors</span></li>
+                    </ul>
+                </div>
+                <div class="isotope-container data-uk-grid-medium uk-grid-collapse with-bg tw-calc-width uk-child-width-1-1 uk-child-width-1-3@m" data-uk-grid data-uk-scrollspy="target: > .portfolio-item; cls:uk-animation-slide-bottom-medium; delay: 300;">
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-elephant">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-elephant.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-elephant.jpg" onClick="document.getElementById('animal-elephant').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-dog">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-dog.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-dog.jpg" onClick="document.getElementById('animal-dog').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-purple">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-purple.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-purple.gif" onClick="document.getElementById('color-purple').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-vehicle">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="vehicle-train">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/vehicle-train.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/vehicle-train.jpg" onClick="document.getElementById('vehicle-train').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-banana">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-banana.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-banana.jpg" onClick="document.getElementById('food-banana').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-lion">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-lion.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-lion.jpg" onClick="document.getElementById('animal-lion').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-blue">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-blue.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-blue.gif" onClick="document.getElementById('color-blue').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-cow">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-cow.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-cow.jpg" onClick="document.getElementById('animal-cow').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-orange">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-orange.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-orange.jpg" onClick="document.getElementById('food-orange').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-bird">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-bird.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-bird.jpg" onClick="document.getElementById('animal-bird').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-vehicle">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="vehicle-car">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/vehicle-car.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/vehicle-car.jpg" onClick="document.getElementById('vehicle-car').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-black">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-black.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-black.gif" onClick="document.getElementById('color-black').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-cat">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-cat.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-cat.jpg" onClick="document.getElementById('animal-cat').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-object">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="object-table">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/object-table.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/object-table.jpg" onClick="document.getElementById('object-table').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-vehicle">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="vehicle-firetruck">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/vehicle-firetruck.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/vehicle-firetruck.jpg" onClick="document.getElementById('vehicle-firetruck').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-yellow">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-yellow.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-yellow.gif" onClick="document.getElementById('color-yellow').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-fish">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-fish.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-fish.jpg" onClick="document.getElementById('animal-fish').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-water">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-water.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-water.jpg" onClick="document.getElementById('food-water').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-chicken">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-chicken.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-chicken.jpg" onClick="document.getElementById('animal-chicken').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-strawberry">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-strawberry.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-strawberry.jpg" onClick="document.getElementById('food-strawberry').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-monkey">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-monkey.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-monkey.jpg" onClick="document.getElementById('animal-monkey').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-orange">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-orange.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-orange.gif" onClick="document.getElementById('color-orange').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-rice-cooked">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-rice-cooked.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-rice-cooked.jpg" onClick="document.getElementById('food-rice-cooked').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-pig">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-pig.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-pig.jpg" onClick="document.getElementById('animal-pig').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-tomato">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-tomato.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-tomato.jpg" onClick="document.getElementById('food-tomato').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-water-cup">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-water-cup.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-water-cup.jpg" onClick="document.getElementById('food-water-cup').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-vehicle">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="vehicle-plane">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/vehicle-plane.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/vehicle-plane.jpg" onClick="document.getElementById('vehicle-plane').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-animal">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="animal-mouse">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/animal-mouse.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/animal-mouse.jpg" onClick="document.getElementById('animal-mouse').play(); return false;" />
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-green">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-green.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-green.gif" onClick="document.getElementById('color-green').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-orange-juice">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-orange-juice.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-orange-juice.jpg" onClick="document.getElementById('food-orange-juice').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-apple">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-apple.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-apple.jpg" onClick="document.getElementById('food-apple').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-fried-rice">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-fried-rice.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-fried-rice.jpg" onClick="document.getElementById('food-fried-rice').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-object">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="object-chair">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/object-chair.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/object-chair.jpg" onClick="document.getElementById('object-chair').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-gray">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-gray.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-gray.gif" onClick="document.getElementById('color-gray').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-grape">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-grape.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-grape.jpg" onClick="document.getElementById('food-grape').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-ice-cream">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-ice-cream.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-ice-cream.jpg" onClick="document.getElementById('food-ice-cream').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-rice-uncooked">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-rice-uncooked.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-rice-uncooked.jpg" onClick="document.getElementById('food-rice-uncooked').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-red">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-red.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-red.gif" onClick="document.getElementById('color-red').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-rice-bowl">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-rice-bowl.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-rice-bowl.jpg" onClick="document.getElementById('food-rice-bowl').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-pear">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-pear.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-pear.jpg" onClick="document.getElementById('food-pear').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-object">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="object-house">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/object-house.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/object-house.jpg" onClick="document.getElementById('object-house').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-object">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="object-key">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/object-key.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/object-key.jpg" onClick="document.getElementById('object-key').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-white">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-white.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-white.gif" onClick="document.getElementById('color-white').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-food">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="food-watermelon">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/food-watermelon.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/food-watermelon.jpg" onClick="document.getElementById('food-watermelon').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-item category-color">
+                        <a href="#" class="portfolio-content uk-light">
+                            <audio id="color-brown">
+                                <source src="" type="audio/ogg" />
+                                <source src="assets/listenandlearn/color-brown.mp3" type="audio/mpeg" />
+                            </audio>
+                            <img src="assets/listenandlearn/color-brown.gif" onClick="document.getElementById('color-brown').play(); return false;" />
+                        </a>
+                    </div>
+                    
+                    
+                    <div class="grid-sizer"></div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="uk-section uk-padding-remove-vertical uk-light" style="background-color: #222222;">
+
+            <div class="bottom-area">
+                <div class="uk-container">
+                    <div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-medium" data-uk-grid data-uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 200;">
+                        <div>
+                            <div class="widget">
+                                <div class="tw-logo">
+                                    <h3 class="site-name">
+                                        <a href="#">Nguyening</a>
+                                    </h3>
+                                </div>
+                                <p>
+                                    I started this simple project to help teach my kids Vietnamese.
+                                </p>
+                                <!--
+                                <div class="tw-socials">
+                                    <a href="#"><i class="ion-social-facebook"></i></a>
+                                    <a href="#"><i class="ion-social-instagram"></i></a>
+                                    <a href="#"><i class="ion-social-pinterest"></i></a>
+                                    <a href="#"><i class="ion-social-twitter"></i></a>
+                                    <a href="#"><i class="ion-social-youtube"></i></a>
+                                    <a href="#"><i class="ion-social-rss"></i></a>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="uk-padding-left">
+                                <div class="widget widget_recent_entries">
+                                    <h3 class="widget-title"><span>Notes</span></h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Initial setup</a> <br>
+                                            <span class="tw-meta">Aug 19, 2017</span>
+                                        </li>
+                                        <li>
+                                            Introduction of color, animal, fruit, vehicle, cup, water/juice, fried, and cooked/uncooked rice <br>
+                                            <span class="tw-meta">Aug 20, 2017</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--
+
+                        <div class="widget">
+                            <div class="uk-padding-left">
+                                <h3 class="widget-title"><span>Useful Links</span></h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">So useful</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="widget">
+                                <h3 class="widget-title"><span>Useful Links</span></h3>
+                                <ul>
+                                    <li>
+                                        <i class="ion-ios-location"></i>
+                                        <a href="#">88 Orchard St, New York, NY 111000, United States.</a>
+                                    </li>
+                                    <li>
+                                        <i class="ion-android-call"></i>
+                                        <a href="#">(001) 8686 234 432</a>
+                                    </li>
+                                    <li>
+                                        <i class="ion-android-mail"></i>
+                                        <a href="#">support@themewaves.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="ion-ios-world-outline"></i>
+                                        <a href="#">www.themewaves.com</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>External Links</li>
+                                </ul>
+                            </div>
+                        </div>
+
+-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-area footer-small">
+                <div class="uk-container">
+                    <div class="uk-flex-middle uk-child-width-1-1 uk-child-width-expand@m" data-uk-grid>
+                        <div class="copyright">
+                            <!--© Copyright 2017 - All Rights Reserved-->
+                        </div>
+                        <div class="uk-text-right">
+                            <a href="" data-uk-scroll>Back To Top &nbsp;&nbsp;<i class="ion-ios-arrow-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <!-- .main-container close -->
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
