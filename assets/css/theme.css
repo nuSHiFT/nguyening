@@ -3153,7 +3153,7 @@ span.tw-meta {
   transition: transform .5s ease;
 }
 .tw-portfolio .portfolio-media.tw-image-hover:before{
-    background-color: rgba(21, 21, 21, 0.9);
+    background-color: rgba(21, 21, 21, 0.2);
     transition: opacity 0.3s ease;
     transition-delay: 0.3s;
 }
@@ -3164,7 +3164,7 @@ span.tw-meta {
 /* Portfolio Style Default */
 
 .tw-portfolio .portfolio-media .portfolio-title {
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: normal;
   overflow: hidden;
 }
